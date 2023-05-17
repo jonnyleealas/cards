@@ -1,3 +1,11 @@
 .card {
-    color: blue;
+    
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+    font-size: 12px;
+    /* flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative; */
 }

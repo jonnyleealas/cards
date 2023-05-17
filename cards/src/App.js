@@ -1,4 +1,4 @@
-
+import Card from '../src/Components/Card/Card'
 import './App.css';
 import AppData from './AppData.js'
 
@@ -7,12 +7,10 @@ function App() {
   const Cards = AppData.map((data) => {
      return(
       <div>
-        {data.id}
-        {data.description}
-        {data.endDate}
-        {data.googleMapsUrl}
-        {data.startDate}
-        {data.title}
+        <Card
+        key={data.id}
+        data={data}
+        />
       </div>
      )
   })

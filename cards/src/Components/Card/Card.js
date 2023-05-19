@@ -3,6 +3,7 @@ const Card = (props) => {
     return (
 
         <div className='card'>
+            
             <img className='picture' src={props.data.picture} alt='fuji' />
             <div className='card-content' >
             <p>{props.data.id}</p>

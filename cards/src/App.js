@@ -9,10 +9,10 @@ function App() {
      return(
       <div>
         <Header />
-        {/* <Card
+        <Card
         key={data.id}
         data={data}
-        /> */}
+        />
       </div>
      )
   })

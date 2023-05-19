@@ -1,0 +1,37 @@
+header {
+    position: absolute;
+    width: 550px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    background: #F55A5A;
+    color: #FFFFFF;
+    
+}
+
+.header-title {
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    padding-left: 237px;
+    padding-top: 7px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+
+    color: #FFFFFF;
+}
+
+.path-logo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding-left: calc(50% - 24px/2 - 50px);
+    padding-top: calc(50% - 24px/2 - 246px);
+
+
+}

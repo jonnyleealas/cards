@@ -8,17 +8,19 @@ function App() {
   const Cards = AppData.map((data) => {
      return(
       <div>
-        <Header />
+       
         <Card
         key={data.id}
         data={data}
         />
+        <hr></hr>
       </div>
      )
   })
 
   return (
     <div className="App">
+       <Header />
       {Cards}
     </div>
   );

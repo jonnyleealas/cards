@@ -1,12 +1,12 @@
 header {
-    position: absolute;
+  
     width: 550px;
     height: 55px;
     left: 0px;
     top: 0px;
     background: #F55A5A;
     color: #FFFFFF;
-    
+    margin-bottom: 3rem;
 }
 
 .header-title {

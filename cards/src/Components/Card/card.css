@@ -1,15 +1,18 @@
 .card {
-    
-    border: 2px solid black;
-    outline-style: solid;
-    outline-color: red;
     font-size: 12px;
-    flex: 0 0 auto;         
+    width: 470px;
+    height: 168px;     
     display: flex;          
-    flex-direction: column; 
-    position: relative;
 }
 
+
 .picture {
-    width: 125px ;
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card-content {
+    display: flex;
+    
 }

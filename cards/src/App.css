@@ -1,0 +1,15 @@
+.App {
+    width: 550px;
+    
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+hr {
+    margin-top: 1.5rem;
+    border: 1px solid #F5F5F5;;
+}

@@ -16,3 +16,8 @@
     display: flex;
     
 }
+
+.location-pin {
+    height: 9.55px;
+    width: 7px;
+}

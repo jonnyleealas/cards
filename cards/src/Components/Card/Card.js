@@ -8,7 +8,9 @@ const Card = (props) => {
             <img className='picture' src={props.data.picture} alt='fuji' />
             <div className='card-content' >
                 <img className='location-pin' src={pin} atl='location pin' />
-                <p>{props.data.googleMapsUrl}</p>
+               
+
+                <a href={props.data.googleMapsUrl} target='_blank'>web link</a>
                 <p>{props.data.id}</p>
                 <p>{props.data.title}</p>
                 <p>{props.data.description}</p>

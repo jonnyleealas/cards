@@ -23,7 +23,8 @@
 
 .pin-content {
     display: flex;
-    
+    flex-direction: row;
+    align-items: center;
     padding-top: 1.2em;
     padding-bottom: .5em;
 }
@@ -31,7 +32,7 @@
 .location-pin-icon {
     height: 9.55px;
     width: 7px;
-    padding-top: .09em;
+    padding-bottom: .09em;
     padding-right: .3em;
 }
 
@@ -46,10 +47,14 @@
 }
 
 .link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 10.24px;
+    padding-bottom: .1em;
     color: #918E9B;
 
 }
@@ -61,7 +66,6 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
-
     padding-bottom: .6em;
 }
 

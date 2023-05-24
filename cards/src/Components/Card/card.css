@@ -3,7 +3,8 @@
     font-size: 12px;
     width: 470px;
     height: 168px;     
-    display: flex;          
+    display: flex;
+    padding-top: 1em;          
 } 
 
 .picture {

@@ -5,9 +5,10 @@ import pathLogo from '../pics/path-logo.png'
 const Header = () => {
     return (
         <header>
-            <div className='header-logo'>
+            {/* <div className='header-logo'> */}
+            <div className='header-title'>
                 {/* <img className='path-logo' src={pathLogo} alt='pic of a mountain' /> */}
-                <h2 className='header-title'>my travel journal</h2>
+                my travel journal
             </div>
         </header>
     )
